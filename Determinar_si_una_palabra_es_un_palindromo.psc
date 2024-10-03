@@ -1,4 +1,4 @@
-Algoritmo Aporte_Informatica_Mateo_Peñafiel_Determinar_si_una_palabra_es_un_palindromo
+Algoritmo Aporte_Informatica_Mateo_PeÃ±afiel_Determinar_si_una_palabra_es_un_palindromo
 	Definir n,v,j Como Entero
 	Definir palabra Como Caracter
 	Escribir "Escribir una palabra"
