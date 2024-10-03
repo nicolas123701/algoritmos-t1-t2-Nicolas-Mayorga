@@ -1,10 +1,10 @@
 Proceso PRACTICA_1
 	Definir n1,n2,n3,s,r,m Como Real;
-	Escribir "Ingresar primer número";
+	Escribir "Ingresar primer nÃºmero";
 	leer n1;
-	Escribir "Ingresar segundo número";
+	Escribir "Ingresar segundo nÃºmero";
 	leer n2;
-	Escribir "Ingresar tercer número";
+	Escribir "Ingresar tercer nÃºmero";
 	leer n3;
 	s<-n1+n2+n3;
 	Escribir " la suma es",s;
