@@ -14,7 +14,7 @@ Proceso sin_titulo
 		Si PA<7 Y PA>=4 Entonces 
 			Escribir "El estudiante",N,"Esta supletorio en la asignatura de",A,"Con un promedio de",PA;
 		SiNo
-			Escribir "El estudiante",N,"Reprobó la asignatura de",A,"Con un promedio de",PA;
+			Escribir "El estudiante",N,"ReprobÃ³ la asignatura de",A,"Con un promedio de",PA;
 		FinSi
 	FinSi
 FinProceso
