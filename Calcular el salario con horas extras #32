@@ -1,0 +1,12 @@
+Definir horasTrabajadas, salarioHora, salarioTotal, horasExtras Como Real;
+Escribir "Ingrese las horas trabajadas: ";
+Leer horasTrabajadas;
+Escribir "Ingrese el salario por hora: ";
+Leer salarioHora;
+Si horasTrabajadas > 40 Entonces
+	horasExtras = horasTrabajadas - 40;
+	salarioTotal = (40 * salarioHora) + (horasExtras * salarioHora * 1.5);
+SiNo
+	salarioTotal = horasTrabajadas * salarioHora;
+FinSi;
+Escribir "El salario total es: ", salarioTotal;
