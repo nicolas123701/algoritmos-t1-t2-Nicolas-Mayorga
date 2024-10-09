@@ -1,0 +1,10 @@
+Definir a, b, c, s, area Como Real;
+Escribir "Ingrese el primer lado: ";
+Leer a;
+Escribir "Ingrese el segundo lado: ";
+Leer b;
+Escribir "Ingrese el tercer lado: ";
+Leer c;
+s = (a + b + c) / 2;
+area = Raiz(s * (s - a) * (s - b) * (s - c));
+Escribir "El área del triángulo es: ", area;
