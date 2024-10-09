@@ -1,0 +1,27 @@
+Definir matriz Como Entero;
+Dimension matriz[3][3];
+Definir vector Como Entero;
+Dimension vector[3];
+Definir resultado Como Entero;
+resultado = 0;
+
+Escribir "Ingrese los elementos de la matriz 3x3:";
+Para i = 1 Hasta 3 Hacer
+	Para j = 1 Hasta 3 Hacer
+		Leer matriz[i][j];
+	FinPara;
+FinPara;
+
+Escribir "Ingrese los elementos del vector de 3 elementos:";
+Para i = 1 Hasta 3 Hacer
+	Leer vector[i];
+FinPara;
+
+Escribir "El resultado de la multiplicación es:";
+Para i = 1 Hasta 3 Hacer
+	resultado = 0;
+	Para j = 1 Hasta 3 Hacer
+		resultado = resultado + matriz[i][j] * vector[j];
+	FinPara;
+	Escribir resultado;
+FinPara;
