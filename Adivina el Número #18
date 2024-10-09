@@ -1,0 +1,35 @@
+Definir numero_secreto, intento, i, j Como Entero;
+Definir adivinado Como Logico;
+Definir intentos Como Entero;
+Dimension intentos[100]; // Se define un vector para almacenar hasta 100 intentos
+i <- 0; // Inicializamos el índice del vector
+// Generar un número aleatorio entre 1 y 100
+numero_secreto <- Azar(100);
+adivinado <- Falso;
+
+Escribir "¡Bienvenido al juego de Adivina el Número!";
+Escribir "La computadora ha elegido un número entre 1 y 100.";
+
+Mientras adivinado = Falso Hacer
+	Escribir "Ingresa tu intento: ";
+	Leer intento;
+	intentos[i] <- intento; // Guardamos el intento en el vector
+	i <- i + 1; // Incrementamos el índice del vector
+	
+	Si intento < numero_secreto Entonces
+		Escribir "Demasiado bajo";
+	Sino
+		Si intento > numero_secreto Entonces
+			Escribir "Demasiado alto";
+		Sino
+			Escribir "¡Felicidades! Adivinaste el número.";
+			adivinado <- Verdadero;
+		FinSi
+	FinSi
+FinMientras
+
+// Mostrar los intentos realizados
+Escribir "Intentos realizados: ";
+Para j <- 0 Hasta i-1 Con Paso 1 Hacer
+	Escribir "Intento ", j+1, ": ", intentos[j];
+FinPara
