@@ -1,0 +1,9 @@
+Definir principal, tasa, años, montoFinal Como Real;
+Escribir "Ingrese el monto inicial: ";
+Leer principal;
+Escribir "Ingrese la tasa de interés anual (en porcentaje): ";
+Leer tasa;
+Escribir "Ingrese el número de años: ";
+Leer años;
+montoFinal = principal * Pot(1 + tasa / 100, años);
+Escribir "El monto final después de ", años, " años es: ", montoFinal;
