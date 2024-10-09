@@ -1,0 +1,5 @@
+Definir total, totalConPropina Como Real;
+Escribir "Ingrese el total de la cuenta: ";
+Leer total;
+totalConPropina = total + (total * 0.1);
+Escribir "El total a pagar con propina es: ", totalConPropina;
