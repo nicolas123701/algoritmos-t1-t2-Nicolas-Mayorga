@@ -1,0 +1,9 @@
+Definir palabra Como Cadena;
+Escribir "Ingrese una palabra: ";
+Leer palabra;
+Segun palabra Hacer
+	"gato": Escribir "La palabra está en la lista";
+	"perro": Escribir "La palabra está en la lista";
+	"caballo": Escribir "La palabra está en la lista";
+	De Otro Modo: Escribir "La palabra no está en la lista";
+FinSegun
