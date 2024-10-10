@@ -1,0 +1,8 @@
+Definir N1 Como entero;
+Escribir "Escriba un número";
+Leer N1;
+Si N1%2=0 Entonces
+	Escribir "Su número es par";
+SiNo
+	Escribir "Su número es impar";
+FinSi
