@@ -1,0 +1,21 @@
+Definir C, IT Como Entero;
+C<-1234;
+IT<-3;
+Escribir"Hola, solo queria recordarte que solo tienes 3 intentos";
+Mientras IT>0 Hacer
+	Escribir "Ingrese la contraseña";
+	Leer C;
+	Si C=1234 Entonces
+		Escribir "Bienvenido";
+	     
+	SiNo
+		IT=IT-1;
+		Escribir "Contraseña incorrecta. Intentos restantes: ", IT	;
+		 
+	Fin Si
+Fin Mientras
+Si IT>0 Entonces
+	Escribir "Contraseña incorrecta. Intentos restantes: ", IT;
+SiNo
+	Escribir "Todos los intentos fallaron. El programa se cerrará.";
+Fin Si
