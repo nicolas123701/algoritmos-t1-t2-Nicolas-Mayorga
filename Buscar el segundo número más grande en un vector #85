@@ -1,0 +1,18 @@
+Definir vector Como Entero;
+Dimension vector[10];
+Definir mayor, segundoMayor Como Entero;
+mayor = -9999;
+segundoMayor = -9999;
+
+Escribir "Ingrese 10 números:";
+Para i = 1 Hasta 10 Hacer
+	Leer vector[i];
+	Si vector[i] > mayor Entonces
+		segundoMayor = mayor;
+		mayor = vector[i];
+	Sino Si vector[i] > segundoMayor Entonces
+			segundoMayor = vector[i];
+		FinSi;
+	FinPara;
+	
+	Escribir "El segundo número más grande es: ", segundoMayor;
