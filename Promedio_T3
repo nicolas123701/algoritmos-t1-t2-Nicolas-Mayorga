@@ -1,0 +1,18 @@
+Definir N, A Como Cadena;
+Definir T1, T2, T3, PA Como Real;
+Escribir 'Escriba el nombre del estudiante nombre';
+Leer N;
+Escribir 'Escriba el nombre de la asignatura';
+Leer A;
+Escribir 'Escriba las notas trimetrales';
+Leer T1, T2, T3;
+PA <- (T1+T2+T3)/3;
+Si PA>=7 Entonces
+	Escribir 'El estudiante ', N, ' Paso la asignatura ', A, ' Con un promedio de ', PA;
+SiNo
+	Si PA>6 Entonces
+		Escribir 'El estudiante ', N, ' No paso la asignatura ', A, ' Con un promedio de ', PA;
+	SiNo
+		Escribir 'El estudiante ', N, ' Se quedo supletorio la asignatura ', A, ' Con un promedio de ', PA;
+	FinSi
+FinSi
